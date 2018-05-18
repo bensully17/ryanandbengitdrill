@@ -1,0 +1,23 @@
+header {
+    display: flex;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 1px;
+    align-items: end;
+    border-bottom: 1rem solid rgb(23, 137, 298);
+  }
+  
+  h1 {
+    grid-column: 1/span 34;
+    margin-left: 70%;
+    color: rgb(23, 137, 298);
+  }
+  
+  nav {
+    grid-column: 5/ span 18;
+  }
+  
+  nav a {
+    text-decoration: line-through;
+    color: rgb(243, 3, 3);
+    font-size: 21;
+  }
