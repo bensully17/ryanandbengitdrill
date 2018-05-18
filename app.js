@@ -8,4 +8,9 @@ function addUp(arrayOne) {
     return sum
 }
 console.log(addUp(arrayOne))
-    
+
+let codingPeeps = [{
+    name: 'Ben',
+    age:'19300 years'
+},{name:'Ryan',
+age:'200'}]
