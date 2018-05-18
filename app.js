@@ -14,3 +14,12 @@ let codingPeeps = [{
     age:'19300 years'
 },{name:'Ryan',
 age:'200'}]
+
+const num = [2,2,2,3,7]
+
+function reductify(){
+  let red =  num.reduce((accum,cv)=> accum + cv)
+return red
+}
+
+reductify()
